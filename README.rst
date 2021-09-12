@@ -106,3 +106,12 @@ Usage::
     optional arguments:
       -h, --help            show this help message and exit
       --output-dir OUTPUT_DIR, -o OUTPUT_DIR
+
+
+GitHub stars trend
+==================
+
+|stargazers|_
+
+.. |stargazers| image:: https://starchart.cc/akaihola/pgtricks.svg
+.. _stargazers: https://starchart.cc/akaihola/pgtricks
