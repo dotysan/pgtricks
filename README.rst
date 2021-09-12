@@ -7,11 +7,20 @@
 .. |travis-badge| image:: https://travis-ci.com/akaihola/pgtricks.svg?branch=master
 .. _travis-badge: https://travis-ci.com/akaihola/pgtricks
 .. |license-badge| image:: https://img.shields.io/badge/License-BSD%203--Clause-blue.svg
+   :alt: BSD 3 Clause license
 .. _license-badge: https://github.com/akaihola/pgtricks/blob/master/LICENSE
 .. |pypi-badge| image:: https://img.shields.io/pypi/v/pgtricks
+   :alt: Latest release on PyPI
 .. _pypi-badge: https://pypi.org/project/pgtricks/
-.. |downloads-badge| image:: https://pepy.tech/badge/pgtricks
+.. |downloads-badge| image::  https://pepy.tech/badge/pgtricks
+   :alt: Number of downloads
 .. _downloads-badge: https://pepy.tech/project/pgtricks
+.. |black-badge| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :alt: Source code formatted using Black
+.. _black-badge: https://github.com/psf/black
+.. |changelog-badge| image:: https://img.shields.io/badge/-change%20log-purple
+   :alt: Change log
+.. _changelog-badge: https://github.com/akaihola/pgtricks/blob/master/CHANGES.rst
 
 This package contains two tools for backing up PostgreSQL database dumps.
 
