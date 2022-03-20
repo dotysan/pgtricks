@@ -33,16 +33,11 @@ jobs:
     - name: Test with pytest
       run: >
         pytest
-    - name: Check formatting and linting with Darker
-      run: >
-        darker
-        --diff
-        --check
-        --revision=origin/master...
-        --isort
-        --lint=pylint
-        --lint=flake8
-        .
+    - uses: akaihola/darker@gh-action-linters
+      with:
+        options: --check --diff --isort
+        revision: origin/master...
+        lint: flake8,pylint
     - name: Do static type checking with Mypy
       run: >
         mypy .
