@@ -50,4 +50,4 @@ jobs:
       with:
         options: --verbose --check --diff --isort
         revision: origin/master...
-        lint: flake8 == 4.0.1 , pylint==2.13.3
+        lint: flake8 == 4.0.0 , pylint==2.13.2
