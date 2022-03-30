@@ -46,8 +46,8 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.10'
-    - uses: akaihola/darker@gh-action-linters
+    - uses: akaihola/darker@gh-action-linter-versions
       with:
         options: --verbose --check --diff --isort
         revision: origin/master...
-        lint: flake8,pylint
+        lint: flake8 == 4.0.1 , pylint==2.13.3
