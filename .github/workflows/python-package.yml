@@ -49,6 +49,6 @@ jobs:
     - uses: akaihola/darker@force-colors
       with:
         version: "@force-colors"
-        options: --verbose --color --check --diff --isort
+        options: --verbose --check --diff --isort --color
         revision: origin/master...
         lint: flake8 == 4.0.0 , pylint==2.13.2
